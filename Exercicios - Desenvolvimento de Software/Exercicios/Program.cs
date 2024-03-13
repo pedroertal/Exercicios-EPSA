@@ -13,7 +13,7 @@ namespace Exercicios
             Exercicios exe = new Exercicios();
 
             int escolha;
-            Console.WriteLine("Qual exercicio você quer executar? \n[1] Exercicio 3 \n[2] Exercício 4\n[0] Cancelar app");
+            Console.WriteLine("Qual exercicio você quer executar? \n[1] Exercicio 3 \n[2] Exercício 4\n[0] Cancelar app \n");
             escolha = int.Parse(Console.ReadLine());
 
             switch (escolha)
