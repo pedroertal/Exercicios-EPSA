@@ -8,6 +8,32 @@ namespace Exercicios
 {
     public class Exercicios
     {
+        /* Exercicio 1 */
+
+        public void Exercicio1()
+        {
+            int[] numeros = new int[4];
+            int soma = 0;
+
+            for (int i = 0; i < 4; i++) { 
+                Console.WriteLine($"Escreva o {i + 1}° número: ");
+                numeros[i] = int.Parse(Console.ReadLine());   
+            }
+
+            foreach (int num in numeros) {
+                soma += num;
+            }
+
+            Console.WriteLine($"A soma dos números digitados é: {soma} \n");
+        }
+
+        /* Exercicio 2 */
+
+        public void Exercicio2()
+        {
+
+        }
+
         /* Classe do exercício 3 */
         internal class Computador
         {
